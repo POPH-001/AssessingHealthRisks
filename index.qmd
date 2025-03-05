@@ -210,11 +210,11 @@ Can you think of some positive exposure?
 
 - **<span style="color: silver;">Bradford Hill's</span> Criteria:**
 
-  - 1. <span style="color: gold;">**Strength & Consistency**</span> – A strong and repeated association across studies increases the likelihood of causation.
-  - 2. <span style="color: gold;">**Specificity & Temporality**</span> – The cause should lead to a specific effect, and the effect must occur **after** the cause.  
-  - 3. <span style="color: gold;">**Biological Gradient & Plausibility**</span> – A dose-response relationship should exist, and the cause should make biological sense.  
-  - 4. <span style="color: gold;">**Coherence & Experiment**</span> – The evidence should align with existing knowledge, and experiments should support the causal link.  
-  - 5. <span style="color: gold;">**Analogy** </span>– If similar factors cause similar effects, the association is more credible.  
+  - 1 <span style="color: gold;">**Strength & Consistency**</span> – A strong and repeated association across studies increases the likelihood of causation.
+  - 2 <span style="color: gold;">**Specificity & Temporality**</span> – The cause should lead to a specific effect, and the effect must occur **after** the cause.  
+  - 3 <span style="color: gold;">**Biological Gradient & Plausibility**</span> – A dose-response relationship should exist, and the cause should make biological sense.  
+  - 4 <span style="color: gold;">**Coherence & Experiment**</span> – The evidence should align with existing knowledge, and experiments should support the causal link.  
+  - 5 <span style="color: gold;">**Analogy** </span>– If similar factors cause similar effects, the association is more credible.  
 
 
 ---
