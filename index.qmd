@@ -1,0 +1,265 @@
+---
+title: "Assessing Health Risks in Populations (draft)"
+subtitle: "Chapter 5 <br> Eric Delmelle <br> March 5, 24 2025"
+format: revealjs
+---
+```{=html}
+<style>
+.circle {
+  background-color: #FFCCCB; /* Light red background */
+  border: 2px solid teal; /* Teal border */
+  border-radius: 50%; /* Makes the circle round */
+  color: teal; /* Teal text color */
+  width: 75px; /* Circle diameter */
+  height: 75px; /* Circle diameter */
+  display: inline-block;
+  text-align: center;
+  line-height: 75px; /* Match the height to center the text vertically */
+  vertical-align: middle; /* Aligns the circle vertically with adjacent text */
+  margin-right: 5px;
+}
+</style>
+```
+```{=html}
+<style>
+.highlight-box {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+}
+</style>
+```
+```{=html}
+<style>
+ul {
+  font-size: 85%;
+}
+
+ul ul {
+  font-size: 75%;
+}
+</style>
+```
+
+![](imgs/slideOverview.png){fig-align="center" width="327"}
+
+
+
+# [**Chapter Overview**]{style="text-align: center; color: blue;"}
+
+- **Defining Risk**: Understanding risk as the probability of an event occurring, often implying harm.
+- **Concepts of Causation**: Reviewing causation from historical and contemporary perspectives.
+- **Quantifying Association**: Using ratio and difference measures to quantify associations.
+
+
+
+# [**Chapter Overview**]{style="text-align: center; color: blue;"}
+
+- **Assessing Causal Effect**: Applying attributable risk and its variants.
+
+- **Competing Risks**: Explaining how competing risks affect mortality patterns.
+- **Risk Perception and Communication**: Recognizing the critical role of risk perception and communication in public health.
+
+---
+
+## [1]{.circle}[**Risks in Population Health**]{style="color: teal;"}
+
+- **Central Task:** Assessing health risks [core function]{.highlight-box} in pop. health.
+- **Broad Usage of "[Risk]{.highlight-box}":** The term describes the <span style="color: fuchsia;">probability of adverse outcomes, risk factors, and health consequences</span>.
+- **Risk Factors vs. Risk Markers:** Distinguishing between factors that <span style="color: fuchsia;">cause</span> disease and those that <span style="color: fuchsia;">indicate</span> its presence.
+- **Health Risk Appraisal (HRA):** Using quantitative procedures to estimate mortality and morbidity risks.
+- **Health Risk Assessment:** Evaluating scientific data on <span style="color: fuchsia;">hazardous environmental agents</span> &hArr; <span style="color: fuchsia;">human exposure</span>.
+
+
+---
+
+## [2]{.circle}[**Health Risk Assessment Steps**]{style="color: teal;"}
+
+
+1. **<span style="color: brown;">Hazard Identification</span>:** Identifying harmful agents and describing toxicity.
+2. **<span style="color: brown;">Dose-Response Assessment</span>:** Modeling exposure and health effect size variations.
+3. **<span style="color: brown;">Exposure Assessment</span>:** Identifying exposed populations, exposure routes, and dose characteristics.
+4. **<span style="color: brown;">Risk Characterization</span>:** Integrating data to estimate harm likelihood.
+
+---
+
+## [2]{.circle}[**Health Risk Assessment Steps**]{style="color: teal;"}
+
+
+1. **<span style="color: brown;">Hazard Identification</span>:** Identifying <span style="color: brown;">harmful agents</span> and describing toxicity
+
+![](imgs/agentOrange.png){fig-align="center" width="327"}
+
+---
+
+## [2]{.circle}[**Health Risk Assessment Steps**]{style="color: teal;"}
+
+- **Flint resident lives in uncertainty after lead exposure** [youtube-link](https://www.youtube.com/watch?v=J1ypvScYz-Q)
+
+- **Japan Declares Crisis As Fukushima Reactor Begins Falling Into Ocean And Radiation Levels Soar** [youtube-link](https://www.youtube.com/watch?v=-j3Mu3Lcqpc)
+
+---
+
+
+
+
+
+
+## [2]{.circle}[**Health Risk Assessment Steps**]{style="color: teal;"}
+
+2. **<span style="color: brown;">Dose-Response Assessment</span>:** Modeling exposure and health effect size variations.
+
+<div style="display: flex; justify-content: center;">
+  <img src="imgs/dose.png" style="width: 427px; margin-right: 20px;">
+  <img src="imgs/alcoholdDose.png" style="width: 427px;">
+</div>
+
+---
+
+
+## [2]{.circle}[**Health Risk Assessment Steps**]{style="color: teal;"}
+
+3. **<span style="color: brown;">Exposure Assessment</span>:** Identifying exposed populations, exposure routes, and dose characteristics.
+
+<div style="display: flex; justify-content: center;">
+  <img src="imgs/exposureRoutes.jpeg" style="width: 427px; margin-right: 20px;">
+  <img src="imgs/contaminatedPlayground.png" style="width: 427px;">
+</div>
+
+---
+
+## [2]{.circle}[**Health Risk Assessment Steps**]{style="color: teal;"}
+
+3. **<span style="color: brown;">Exposure Assessment</span>:** Identifying exposed populations, exposure routes, and dose characteristics.
+
+![](imgs/pathways.jpeg){fig-align="center" width="327"}
+
+
+
+---
+
+## [2]{.circle}[**Health Risk Assessment Steps**]{style="color: teal;"}
+
+4. **<span style="color: brown;">Risk Characterization</span>:** Integrating data to estimate harm likelihood.
+
+![](imgs/formula.png){fig-align="center" width="327"}
+
+
+---
+
+Can you think of some positive exposure?
+
+- https://www.menti.com/al6gqdbxqfxo
+
+![](imgs/mentimeter_qr_code-2.png){fig-align="center" width="227"}
+
+
+---
+
+## [3]{.circle}[**Concepts of Causation**]{style="color: teal;"}
+
+
+- **<span style="color: brown;">Necessary Cause</span>:** A cause that must be present for an effect to occur.
+- **<span style="color: brown;">Sufficient Cause</span>:** A cause that inevitably produces the effect.
+- **<span style="color: brown;">Remote vs. Proximate Causes</span>:** Understanding causal chains and effect proximity.
+
+---
+
+## [3]{.circle}[**Concepts of Causation**]{style="color: teal;"}
+
+
+- **<span style="color: silver;">Hume's</span> Criteria:** 
+  -   <span style="color: gold;">**Spatio-temporal Continuity**</span> – The cause and effect must occur close together in space and time.
+  -   <span style="color: gold;">**Temporal Priority**</span> – The cause must always come before the effect.
+  -   <span style="color: gold;">**Necessary Connection**</span> – There must be an expectation that the <span style="color: magenta;">effect must follow the cause</span>, though Hume argued this is something our minds impose rather than an inherent property of reality.
+
+
+---
+
+## [3]{.circle}[**Concepts of Causation**]{style="color: teal;"}
+
+- **<span style="color: silver;">Mill’s</span> Five Methods of Inductive Reasoning**: Agreement, difference, joint method, residues, and concomitant variations.
+  -   <span style="color: gold;">**Agreement**</span> – If two or more cases of an event share only one common factor, then that factor is likely the cause of the event.
+    -   *<span style="color: blue;">Example*</span>: If multiple people who ate at a restaurant got food poisoning and the only dish they all ate was the salad, then the salad is likely the cause.
+
+  -   <span style="color: gold;">**Method of difference**</span> – If an event occurs in one case but not in another, and the only difference between them is one factor, then that factor is likely the cause.
+    -   *<span style="color: blue;">Example*</span>: If two people follow the same diet, but only one develops an allergy after eating a particular fruit, the fruit is likely the cause.
+    
+---
+
+## [3]{.circle}[**Concepts of Causation**]{style="color: teal;"}
+
+- **<span style="color: silver;">Mill’s</span> Five Methods of Inductive Reasoning**: Agreement, difference, joint method, residues, and concomitant variations.
+  -   <span style="color: gold;">**Joint method**</span> – A combination of the first two methods (1) Identify a common factor across cases where an event occurs, and (2) Ensure that when the factor is absent, the event does not occur..
+    -   *<span style="color: blue;">Example*</span>: If people who drink contaminated water get sick, and those who don’t drink it remain healthy, then the contaminated water is likely the cause.
+
+  -   <span style="color: gold;">**Method of Residues**</span> – If known causes are accounted for, and there is still an unexplained effect, the remaining factor(s) must be responsible for the residual effect.
+    -   *<span style="color: blue;">Example*</span>: If a medication has multiple ingredients and the effects of some ingredients are already known, but a new side effect appears, it is likely caused by the ingredient whose effects are still unknown.
+        
+---
+
+## [3]{.circle}[**Concepts of Causation**]{style="color: teal;"}
+
+- **<span style="color: silver;">Mill’s</span> Five Methods of Inductive Reasoning**: Agreement, difference, joint method, residues, and concomitant variations.
+  -   <span style="color: gold;">**Concomitant variations**</span> – If a factor varies in intensity along with an effect, there is likely a causal connection.
+    -   *<span style="color: blue;">Example*</span>: If increased smoking leads to increased lung cancer rates, and reduced smoking leads to lower rates, smoking is likely a cause of lung cancer.
+        
+---
+
+## [3]{.circle}[**Concepts of Causation**]{style="color: teal;"}
+
+- **<span style="color: silver;">Bradford Hill's</span> Criteria:**
+
+  - 1. <span style="color: gold;">**Strength & Consistency**</span> – A strong and repeated association across studies increases the likelihood of causation.
+  - 2. <span style="color: gold;">**Specificity & Temporality**</span> – The cause should lead to a specific effect, and the effect must occur **after** the cause.  
+  - 3. <span style="color: gold;">**Biological Gradient & Plausibility**</span> – A dose-response relationship should exist, and the cause should make biological sense.  
+  - 4. <span style="color: gold;">**Coherence & Experiment**</span> – The evidence should align with existing knowledge, and experiments should support the causal link.  
+  - 5. <span style="color: gold;">**Analogy** </span>– If similar factors cause similar effects, the association is more credible.  
+
+
+---
+
+## [3]{.circle}[**Concepts of Causation**]{style="color: teal;"}
+
+- **<span style="color: silver;">Henle-Koch's</span> Postulates:**
+
+  - 1. <span style="color: gold;">**Agent Presence**</span> – The microorganism must be found in all cases of the disease.
+  - 2. <span style="color: gold;">**Isolation**</span> – The microorganism must be isolated and grown in pure culture.
+  - 3. <span style="color: gold;">**Disease Causation**</span> – Introducing the isolated microorganism into a healthy host should cause the disease.
+  - 4. <span style="color: gold;">**Reisolation**</span> – The microorganism must be re-isolated from the newly infected host.
+  - 5. <span style="color: gold;">**Consistency**</span> – These findings should be repeatable across multiple cases.
+
+
+---
+
+## [4]{.circle}[**Measures of Association**]{style="color: teal;"}
+
+
+- **Ratio Measures:** Relative risk, risk ratio, rate ratio, odds ratio.
+- **Difference Measures:** Risk difference or attributable risk.
+- **Relative Risk (RR):** $RR = \frac{I_1}{I_0}$
+- **Odds Ratio (OR):** $OR = \frac{(a/c)}{(b/d)} = \frac{ad}{bc}$
+- **Risk Difference (RD):** $RD = I_1 - I_0$
+- **Attributable Risk Among the Exposed [AR(E)]:** $AR(E) = \frac{(I_1 - I_0)}{I_1} = \frac{(RR - 1)}{RR}$
+- **Population Attributable Risk (PAR):** $PAR = \frac{(I - I_0)}{I} = \frac{P(RR - 1)}{P(RR - 1) + 1}$
+
+---
+
+## [5]{.circle}[**Competing Risks**]{style="color: teal;"}
+
+- **Definition:** Recognizes that individuals are exposed to multiple risks, where one event prevents another.
+- **Importance:** Essential for understanding mortality trends and disease impact.
+- **Statistical Approaches:** Methods to estimate death probability in competing risks.
+
+---
+
+## [6]{.circle}[**Risk Perception and Communication**]{style="color: teal;"}
+
+
+- **Subjectivity of Risk:** Public perception differs from expert assessments.
+- **Social Construction of Risk:** Influences include social, cultural, and political factors.
+- **Factors Influencing Risk Acceptance:** Fair distribution, benefits, alternatives, voluntary vs. imposed risks, and control.
+- **Biases in Probability Assessment:** Representativeness, anchoring, and availability.
+- **Effective Risk Communication:** Public involvement, planning, listening, honesty, coordination, media engagement, clarity, and compassion.
+
+
